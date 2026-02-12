@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h2>Jadwal Pelajaran</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Hari</th>
+                <th>Jam 1</th>
+                <th>Jam 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Senin</td>
+                <td>Matematika</td>
+                <td>IPA</td>
+            </tr>
+            <tr>
+                <td>Selasa</td>
+                <td>Bahasa</td>
+                <td>Olahraga</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total: 4 mata pelajaran</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Penggabungan Sel</h2>
+    <table border="1">
+        <tr>
+            <th rowspan="2">Baris 1 & 2</th>
+            <td>Kolom 1</td>
+            <td>Kolom 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">Gabung kolom 1 & 2</td>
+        </tr>
+    </table>
+</body>
+</html>
