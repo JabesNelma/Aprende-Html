@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML</title>
+    <style>
+        .highlight { background-color: yellow; }
+    </style>
+</head>
+<body>
+    <h2>Entity Karakter</h2>
+    <p>&copy; 2025 &nbsp;&nbsp; &lt;div&gt; &amp; &quot;quote&quot; &apos;apostrof&apos;</p>
+
+    <h2>Data Atribut Kustom</h2>
+    <div data-user-id="12345" data-role="admin">Hover untuk lihat data (buka DevTools)</div>
+
+    <h2>Internal CSS & JavaScript</h2>
+    <p id="demo" class="highlight">Paragraf ini akan berubah jika tombol diklik.</p>
+    <button onclick="ubahTeks()">Klik Saya</button>
+
+    <script>
+        function ubahTeks() {
+            document.getElementById("demo").innerHTML = "Teks berhasil diubah!";
+        }
+    </script>
+</body>
+</html>
