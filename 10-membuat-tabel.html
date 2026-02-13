@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Tabel</title>
+</head>
+<body>
+    <h1>Belajar HTML #10</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Nilai</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Andi</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Budi</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total: 2 siswa</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Penggabungan sel</h2>
+    <table border="1">
+        <tr>
+            <th rowspan="2">Baris 1-2</th>
+            <td>Kolom 1</td>
+            <td>Kolom 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">Gabung kolom</td>
+        </tr>
+    </table>
+</body>
+</html>

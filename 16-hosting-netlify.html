@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara Hosting HTML di Netlify</title>
+    <style>
+        body { font-family: Arial; max-width: 800px; margin: auto; padding: 20px; line-height: 1.6; }
+        pre { background: #f4f4f4; padding: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>Belajar HTML #16: Hosting di Netlify</h1>
+    <h2>Langkah-langkah:</h2>
+    <ol>
+        <li>Buat akun di <a href="https://netlify.com" target="_blank">Netlify.com</a> (bisa dengan GitHub).</li>
+        <li>Push semua file HTML ke repository GitHub.</li>
+        <li>Di Netlify, klik "Add new site" &gt; "Import an existing project".</li>
+        <li>Pilih GitHub, authorize, pilih repository.</li>
+        <li>Biarkan pengaturan default, klik "Deploy site".</li>
+        <li>Situs akan live dengan URL otomatis (dapat diubah).</li>
+    </ol>
+    <p>Contoh file <code>netlify.toml</code> (opsional):</p>
+    <pre>
+[build]
+publish = "."
+    </pre>
+    <p>Setiap push ke GitHub, Netlify akan otomatis redeploy.</p>
+    <p>✨ Selesai! Halaman HTML-mu sudah online.</p>
+</body>
+</html>

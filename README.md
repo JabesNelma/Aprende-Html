@@ -6,28 +6,50 @@
 
 ## 📖 About This Project
 
-This is an HTML learning project I created back in **2020** when I was still in high school. At that time, we had a **Web Design** subject at school, and that's where I started learning HTML.
+This is an HTML learning project created by **Jabes Nelma** back in **2020** during high school. At that time, there was a **Web Design** subject at school, and that's where the learning of HTML started.
 
-Besides learning at school, I also self-taught from the internet, especially from the **[Petani Kode](https://www.petanikode.com/tutorial/html/)** website. That's why all the files here use Indonesian, because that's where I learned from 😄
+Besides learning at school, self-teaching from the internet was also done, especially from the **[Petani Kode](https://www.petanikode.com/tutorial/html/)** website. That's why all the files here use Indonesian 😄
 
 ---
 
 ## 🎯 Project Goals
 
-This project is my **learning archive** from scratch about HTML. The files here are the results of my practice when I first learned to create websites.
+This project is **Jabes Nelma's learning archive** from scratch about HTML. The files here are the results of practice when first learning to create websites.
 
-Why am I just pushing it to GitHub now? Because I **just learned GitHub** recently! So this is kind of my learning portfolio from the past that I finally uploaded here.
+Why just pushing it to GitHub now? Because GitHub was **just learned recently**! So this is kind of a learning portfolio from the past that finally uploaded here.
 
 ---
 
 ## 📁 File Structure
-html-learning/
-├── 01-hello-world.html       # First file - Hello World
-├── 02-basic-tags.html        # Basic HTML tags
-├── 03-links-images.html      # Links and images
-├── 04-lists-tables.html      # Lists and tables
-├── 05-forms.html             # Input forms
-└── README.md                 # This file
+aprende-html/
+├── 01-hello-world.html           # First file - Hello World
+├── 01-pengenalan-dasar.html      # HTML introduction
+├── 02-basic-text.html            # Basic text formatting
+├── 02-tag-elemen-atribut.html    # Tags, elements, attributes
+├── 03-lists.html                 # Lists examples
+├── 03-membuat-paragraf.html      # Creating paragraphs
+├── 04-links-images.html          # Links and images
+├── 04-membuat-heading.html       # Creating headings
+├── 05-cara-membuat-komentar.html # HTML comments
+├── 05-semantic-layout.html       # Semantic layout
+├── 06-table.html                 # Tables
+├── 06-text-formatting.html       # Text formatting
+├── 07-form.html                  # Forms
+├── 07-membuat-link.html          # Creating links
+├── 08-media.html                 # Media elements
+├── 08-menampilkan-gambar.html    # Displaying images
+├── 09-accessibility-seo.html     # Accessibility & SEO
+├── 09-membuat-list.html          # Creating lists
+├── 10-advanced.html              # Advanced HTML
+├── 10-membuat-tabel.html         # Creating tables
+├── 11-final-portfolio.html       # Final portfolio project
+├── 11-membuat-form.html          # Creating forms
+├── 12-elemen-semantik.html       # Semantic elements
+├── 13-menampilkan-video.html     # Displaying video
+├── 14-menambahkan-audio.html     # Adding audio
+├── 15-project-web-pribadi.html   # Personal web project
+├── 16-hosting-netlify.html       # Hosting on Netlify
+└── README.md                     # This file
 
 
 ---
@@ -47,9 +69,9 @@ This project was created based on tutorials from:
 
 ---
 
-## 👨💻 About Me
+## 👨💻 About the Creator
 
-I am a **Junior Frontend Developer** who is learning and developing skills in web development.
+**Jabes Nelma** is a **Junior Frontend Developer** who is learning and developing skills in web development.
 
 **GitHub:** [@JabesNelma](https://github.com/JabesNelma)
 
@@ -57,18 +79,18 @@ I am a **Junior Frontend Developer** who is learning and developing skills in we
 
 ## 📝 Notes
 
-This project is **NOT** a professional or client project. This is purely a **personal learning project** that I created to document my learning journey from the beginning.
+This project is **NOT** a professional or client project. This is purely a **personal learning project** created by **Jabes Nelma** to document the learning journey from the beginning.
 
 So if there's code that's still simple or not neat, that's natural because this is indeed the result of learning from scratch! 😅
 
 ---
 
-## 🙏 Thank You
+## 🙏 Acknowledgments
 
-Thanks to:
+Special thanks to:
 - **Petani Kode** - For the very helpful HTML tutorial
-- **High School Web Design Teacher** - Who introduced me to the world of web development
-- **GitHub** - For the platform that allows me to save and share this project
+- **Web Design Subject** - For introducing the world of web development
+- **GitHub** - For the platform that allows saving and sharing this project
 
 ---
 
